@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family:sans-serif;
+}
+    
+ body {
+    background-color:#243642;
+    background-size: cover;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    overflow-x: hidden;
+ }
+
+.container1
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    min-height: 100vh;
+    /*background: black;*/
+
+}
+form{
+   width: 700px;
+   padding:40px ;
+   background: white;
+   border-radius: 10px;
+
+}
+
+
+.prow{
+    display: flex;
+    gap: 20px;
+}
+.prow .column {
+    flex: 1 1 250px;
+}
+.column .title{
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+
+
+}
+.column .inputBox{
+    margin: 15px 0;
+
+}
+.inputBox span{
+    display: block;
+    margin-bottom: 10px;
+
+}
+.inputBox input{
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.flex{
+    display: flex;
+    gap: 20px;
+
+}
+.flex.inputBox{
+    margin-top: 5px;
+
+}
+
+.category {
+    margin-top :10px;
+    padding-top: 20px;
+    
+
+}
+.category label {
+  width: 100%;
+  padding:20px;
+  display: flex;
+
+
+}
+   
+form .sbtn{
+	
+    width: 300px;
+    padding:12px ;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-right: 150px;
+    background:#243642;
+    border:none ;
+    outline :none;
+    border-radius: 6px;
+    font-size: 17px;
+    color: black;
+    cursor:pointer;
+    transition: 5s;
+
+
+
+}
+form .sbtn:hover{
+    background: #dde5b6;
+    color: black;
+
+}

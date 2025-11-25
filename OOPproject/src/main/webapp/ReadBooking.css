@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* Basic styling for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+/* Styling for the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #dddddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #243642;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Styling for the buttons */
+button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for update and delete buttons */
+a button {
+    margin-right: 10px;
+}
+
+form button {
+    background-color: #f44336;
+}
+
+form button:hover {
+    background-color: #d32f2f;
+}
+
+/* Styling for the page title */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
